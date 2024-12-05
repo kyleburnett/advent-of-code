@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Advent of Code Solutions",
+  "main": "index.js",
+  "scripts": {
+    "create": "node scripts/create.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kyleburnett/advent-of-code.git"
+  },
+  "keywords": [
+    "AoC"
+  ],
+  "author": "Kyle Burnett <kyletburnett@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyleburnett/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/kyleburnett/advent-of-code#readme",
+  "dependencies": {
+    "compute-gcd": "^1.2.1",
+    "compute-lcm": "^1.1.2",
+    "lodash": "^4.17.21"
+  }
+}
